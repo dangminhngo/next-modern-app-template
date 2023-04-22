@@ -1,0 +1,46 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.docs {
+  padding: 2em 4em;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  border-top: 1px solid #999;
+}
+
+.project,
+.next,
+.react {
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  color: inherit;
+}
+
+.nart {
+  border: 1px solid var(--clr-black);
+}
+
+.next {
+  border: 1px solid var(--clr-black);
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+}
+
+.react {
+  border: 1px solid #61dbfb;
+  background-color: #61dbfb;
+}
